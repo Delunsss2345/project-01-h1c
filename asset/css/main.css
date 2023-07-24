@@ -48,10 +48,17 @@ a {
   height: 100vh;
   background: #e6f0ff;
 }
+.fixed-header{
+  background: #e6f0ff;
+  padding-top: 26px;
+  position: sticky;
+  top:-26px;
+  z-index: 1;
+}
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  padding: 12px 0;
 }
 .navbar ul {
   display: flex;
@@ -87,8 +94,7 @@ a {
 }
 /* Hero */
 .hero {
-  margin-top: calc(130px - 40px);
-  padding-top: 40px;
+  padding-top: 110px;
 }
 .hero .info {
   width: 51%;
