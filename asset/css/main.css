@@ -568,6 +568,12 @@ color: #7A7A7E;
   margin-top: 40px;
   cursor: pointer;
 }
+.footer .media img {
+margin-left: 5px;
+}
+.footer .media img:hover{
+ opacity: 0.6;
+}
 .footer .footer-logo {
-  margin-top: 81px;
+  margin-top: 85px;
 }
