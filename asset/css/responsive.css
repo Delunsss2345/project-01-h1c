@@ -161,4 +161,89 @@
   .featured {
     height: auto;
   }
+  .hero .info .title {
+    font-size: 4.2rem;
+  }
+  .hero .info .desc {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+  }
+  .hero-cta {
+    min-width:90px;
+  }
+  .row-decs .decs-hidden {
+    display: none;
+  }
+  .list-guides ul {
+    flex-direction: column;
+    row-gap: 25px;
+  } 
+  .featured .featured-ex {
+    grid-template-columns: 100%;
+
+  }
+  .stats .row {
+   justify-content: center;
+   align-items: center;
+  }
+  .stats .info > h2 {
+    margin-top: 30px;
+    font-size: 2.4rem;
+    width: 100%;
+    line-height: 2.4rem;
+  }
+  .stats .info > p {
+    text-align: center;
+    margin-top: -40px;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .stats .img-block {
+    width: auto !important;
+  }
+  .stats .info {
+    width: 80%;
+    margin: 0 auto;
+  } 
+  .row-stats {
+    display: none;
+  }
+  .row-h2 {
+   display: none;
+  }
+  .row-p {
+    display: none;
+  }
+  .subscription .body {
+    display: flex;
+  }
+  .subscription .body .info {
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 ;
+  }
+  .subscription .info h2 {
+    text-align: center;
+  }
+  .subscription .info p {
+    text-align: center;
+  }
+  .subscription .btn-subscription {
+    display: inline-block;
+    margin: 20px auto 0px auto;
+    width: 40%;
+  }
+  .footer .list-footer {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+  .footer .item-footer .footer-p  {
+    margin: 0 auto;
+  }
+  .footer-logo {
+   display: flex;
+   justify-content: center;
+   padding-bottom: 85px;
+  }
 }
